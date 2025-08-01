@@ -60,3 +60,7 @@ This script can be exectued from anywhere, as it changes directory automatically
 
 You can even double click to run it if you want or create a "launcher" to add it to your desktop.
 
+## Know issues: 
+- In the present state, there are display issues of text on the table widgets. The square symbols are tabs that should not get displayed.  To circumvent this issue, simply hover the cursor on the text that you want to read for a few seconds and a popup will display the full text content... Not pretty but it works.
+- All other features seem to work perfectly; tested different solutions types, several meshing optins and CAD import from Step or STL. All good.
+
