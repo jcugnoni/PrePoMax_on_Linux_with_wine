@@ -40,6 +40,7 @@ export WINEPREFIX=`pwd`/pfx/
 6.  DONE !
 
 Now you can run PrePoMax with 
+
 _cd to the prepomax_wine path first_
 ```
 #set location of Wine "prefix" = Windows files
@@ -51,6 +52,11 @@ export OMP_NUM_THREADS=8
 # run PrePoMax
 ./wine-staging*.AppImage PrePoMax/PrePoMax.exe
 ```
-_or use the run.sh script in this repo (make it executable with "chmod a+x run.sh" before use)
-_cd to the prepomax_wine path first_
-_./run.sh_
+_or use the "run.sh" script in this repo_
+
+make it executable with "chmod a+x run.sh" before use
+
+This script can be exectued from anywhere, as it changes directory automatically. 
+
+You can even double click to run it if you want or create a "launcher" to add it to your desktop.
+
